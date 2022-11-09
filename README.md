@@ -47,7 +47,7 @@ will add the number 1 to the first box.
 
 There are four classes that the script will add to elements which are related to the crossword. The first is "`.black`", which will be added to the blacked out squares. The second is "`.solved`" which will be added to any solved squares (this is only really useful when highlighting solved words or letters is enabled). The third is "`.highlight`", which is whatever word you are currently working on, and the final is "`.focus`" which is the exact square you are editing. Unless there is a background color specified in the css for these classes, there is no clear way to know which word you are currently working on. In the example image pictured above, "`.highlight`" classes are a light blue, and "`.focus`" classes are yellow.
 
-Example
+[Example](https://ewonrael.github.io/crossword/crossword-example/)
 -------
 Included in this repository is an example crossword with the bare minimum needed to get it up and running. This is in the "example" folder. This does a much better job of explaining what everything is and how it works then I ever could. Experiment with the "`index.html`" file, the "`style.css`" file, and the "`script.js`" file. The "`crossword.js`" file is the spaghetti code that you really should never try and look at.
 
